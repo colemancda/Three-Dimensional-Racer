@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E888C551917DF9E00CD2E62 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E888C541917DF9E00CD2E62 /* Cocoa.framework */; };
+		6E888C5F1917DF9E00CD2E62 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E888C5D1917DF9E00CD2E62 /* InfoPlist.strings */; };
+		6E888C611917DF9E00CD2E62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E888C601917DF9E00CD2E62 /* main.m */; };
+		6E888C651917DF9E00CD2E62 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6E888C631917DF9E00CD2E62 /* Credits.rtf */; };
+		6E888C681917DF9E00CD2E62 /* TDRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E888C671917DF9E00CD2E62 /* TDRAppDelegate.m */; };
+		6E888C6B1917DF9E00CD2E62 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E888C691917DF9E00CD2E62 /* MainMenu.xib */; };
+		6E888C6D1917DF9E00CD2E62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E888C6C1917DF9E00CD2E62 /* Images.xcassets */; };
+		6E888C741917DF9E00CD2E62 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E888C731917DF9E00CD2E62 /* XCTest.framework */; };
+		6E888C751917DF9E00CD2E62 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E888C541917DF9E00CD2E62 /* Cocoa.framework */; };
+		6E888C7D1917DF9E00CD2E62 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E888C7B1917DF9E00CD2E62 /* InfoPlist.strings */; };
+		6E888C7F1917DF9E00CD2E62 /* Three_Dimensional_RacerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E888C7E1917DF9E00CD2E62 /* Three_Dimensional_RacerTests.m */; };
+		6E888C891917DFAB00CD2E62 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E888C881917DFAB00CD2E62 /* SceneKit.framework */; };
+		6E888C8E1917E78800CD2E62 /* Translucent_Glass_Gold.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E888C8C1917E78800CD2E62 /* Translucent_Glass_Gold.jpg */; };
+		6E888C8F1917E78800CD2E62 /* legoCar1.dae in Resources */ = {isa = PBXBuildFile; fileRef = 6E888C8D1917E78800CD2E62 /* legoCar1.dae */; };
+		6E888C961917F76500CD2E62 /* TDRRaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E888C941917F76500CD2E62 /* TDRRaceViewController.m */; };
+		6E888C971917F76500CD2E62 /* TDRRaceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E888C951917F76500CD2E62 /* TDRRaceViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E888C761917DF9E00CD2E62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E888C491917DF9E00CD2E62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E888C501917DF9E00CD2E62;
+			remoteInfo = "Three Dimensional Racer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E888C511917DF9E00CD2E62 /* Three Dimensional Racer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Three Dimensional Racer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E888C541917DF9E00CD2E62 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6E888C571917DF9E00CD2E62 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6E888C581917DF9E00CD2E62 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6E888C591917DF9E00CD2E62 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6E888C5C1917DF9E00CD2E62 /* Three Dimensional Racer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Three Dimensional Racer-Info.plist"; sourceTree = "<group>"; };
+		6E888C5E1917DF9E00CD2E62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6E888C601917DF9E00CD2E62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E888C621917DF9E00CD2E62 /* Three Dimensional Racer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Three Dimensional Racer-Prefix.pch"; sourceTree = "<group>"; };
+		6E888C641917DF9E00CD2E62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		6E888C661917DF9E00CD2E62 /* TDRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDRAppDelegate.h; sourceTree = "<group>"; };
+		6E888C671917DF9E00CD2E62 /* TDRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDRAppDelegate.m; sourceTree = "<group>"; };
+		6E888C6A1917DF9E00CD2E62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6E888C6C1917DF9E00CD2E62 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6E888C721917DF9E00CD2E62 /* Three Dimensional RacerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Three Dimensional RacerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E888C731917DF9E00CD2E62 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6E888C7A1917DF9E00CD2E62 /* Three Dimensional RacerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Three Dimensional RacerTests-Info.plist"; sourceTree = "<group>"; };
+		6E888C7C1917DF9E00CD2E62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6E888C7E1917DF9E00CD2E62 /* Three_Dimensional_RacerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Three_Dimensional_RacerTests.m; sourceTree = "<group>"; };
+		6E888C881917DFAB00CD2E62 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		6E888C8C1917E78800CD2E62 /* Translucent_Glass_Gold.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Translucent_Glass_Gold.jpg; sourceTree = "<group>"; };
+		6E888C8D1917E78800CD2E62 /* legoCar1.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = legoCar1.dae; sourceTree = "<group>"; };
+		6E888C931917F76500CD2E62 /* TDRRaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDRRaceViewController.h; sourceTree = "<group>"; };
+		6E888C941917F76500CD2E62 /* TDRRaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDRRaceViewController.m; sourceTree = "<group>"; };
+		6E888C951917F76500CD2E62 /* TDRRaceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TDRRaceViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E888C4E1917DF9E00CD2E62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E888C891917DFAB00CD2E62 /* SceneKit.framework in Frameworks */,
+				6E888C551917DF9E00CD2E62 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E888C6F1917DF9E00CD2E62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E888C751917DF9E00CD2E62 /* Cocoa.framework in Frameworks */,
+				6E888C741917DF9E00CD2E62 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E888C481917DF9E00CD2E62 = {
+			isa = PBXGroup;
+			children = (
+				6E888C5A1917DF9E00CD2E62 /* Three Dimensional Racer */,
+				6E888C781917DF9E00CD2E62 /* Three Dimensional RacerTests */,
+				6E888C531917DF9E00CD2E62 /* Frameworks */,
+				6E888C521917DF9E00CD2E62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E888C521917DF9E00CD2E62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E888C511917DF9E00CD2E62 /* Three Dimensional Racer.app */,
+				6E888C721917DF9E00CD2E62 /* Three Dimensional RacerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E888C531917DF9E00CD2E62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E888C881917DFAB00CD2E62 /* SceneKit.framework */,
+				6E888C541917DF9E00CD2E62 /* Cocoa.framework */,
+				6E888C731917DF9E00CD2E62 /* XCTest.framework */,
+				6E888C561917DF9E00CD2E62 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E888C561917DF9E00CD2E62 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E888C571917DF9E00CD2E62 /* AppKit.framework */,
+				6E888C581917DF9E00CD2E62 /* CoreData.framework */,
+				6E888C591917DF9E00CD2E62 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		6E888C5A1917DF9E00CD2E62 /* Three Dimensional Racer */ = {
+			isa = PBXGroup;
+			children = (
+				6E888C661917DF9E00CD2E62 /* TDRAppDelegate.h */,
+				6E888C671917DF9E00CD2E62 /* TDRAppDelegate.m */,
+				6E888C691917DF9E00CD2E62 /* MainMenu.xib */,
+				6E888C6C1917DF9E00CD2E62 /* Images.xcassets */,
+				6E888C8A1917DFB600CD2E62 /* 3D Resources */,
+				6E888C981917F76900CD2E62 /* Controllers */,
+				6E888C5B1917DF9E00CD2E62 /* Supporting Files */,
+			);
+			path = "Three Dimensional Racer";
+			sourceTree = "<group>";
+		};
+		6E888C5B1917DF9E00CD2E62 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E888C5C1917DF9E00CD2E62 /* Three Dimensional Racer-Info.plist */,
+				6E888C5D1917DF9E00CD2E62 /* InfoPlist.strings */,
+				6E888C601917DF9E00CD2E62 /* main.m */,
+				6E888C621917DF9E00CD2E62 /* Three Dimensional Racer-Prefix.pch */,
+				6E888C631917DF9E00CD2E62 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E888C781917DF9E00CD2E62 /* Three Dimensional RacerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E888C7E1917DF9E00CD2E62 /* Three_Dimensional_RacerTests.m */,
+				6E888C791917DF9E00CD2E62 /* Supporting Files */,
+			);
+			path = "Three Dimensional RacerTests";
+			sourceTree = "<group>";
+		};
+		6E888C791917DF9E00CD2E62 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E888C7A1917DF9E00CD2E62 /* Three Dimensional RacerTests-Info.plist */,
+				6E888C7B1917DF9E00CD2E62 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E888C8A1917DFB600CD2E62 /* 3D Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6E888C8B1917E78800CD2E62 /* legoCar1 */,
+				6E888C8D1917E78800CD2E62 /* legoCar1.dae */,
+			);
+			name = "3D Resources";
+			sourceTree = "<group>";
+		};
+		6E888C8B1917E78800CD2E62 /* legoCar1 */ = {
+			isa = PBXGroup;
+			children = (
+				6E888C8C1917E78800CD2E62 /* Translucent_Glass_Gold.jpg */,
+			);
+			path = legoCar1;
+			sourceTree = "<group>";
+		};
+		6E888C981917F76900CD2E62 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6E888C931917F76500CD2E62 /* TDRRaceViewController.h */,
+				6E888C941917F76500CD2E62 /* TDRRaceViewController.m */,
+				6E888C951917F76500CD2E62 /* TDRRaceViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E888C501917DF9E00CD2E62 /* Three Dimensional Racer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E888C821917DF9E00CD2E62 /* Build configuration list for PBXNativeTarget "Three Dimensional Racer" */;
+			buildPhases = (
+				6E888C4D1917DF9E00CD2E62 /* Sources */,
+				6E888C4E1917DF9E00CD2E62 /* Frameworks */,
+				6E888C4F1917DF9E00CD2E62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Three Dimensional Racer";
+			productName = "Three Dimensional Racer";
+			productReference = 6E888C511917DF9E00CD2E62 /* Three Dimensional Racer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E888C711917DF9E00CD2E62 /* Three Dimensional RacerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E888C851917DF9E00CD2E62 /* Build configuration list for PBXNativeTarget "Three Dimensional RacerTests" */;
+			buildPhases = (
+				6E888C6E1917DF9E00CD2E62 /* Sources */,
+				6E888C6F1917DF9E00CD2E62 /* Frameworks */,
+				6E888C701917DF9E00CD2E62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E888C771917DF9E00CD2E62 /* PBXTargetDependency */,
+			);
+			name = "Three Dimensional RacerTests";
+			productName = "Three Dimensional RacerTests";
+			productReference = 6E888C721917DF9E00CD2E62 /* Three Dimensional RacerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E888C491917DF9E00CD2E62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TDR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ColemanCDA;
+				TargetAttributes = {
+					6E888C711917DF9E00CD2E62 = {
+						TestTargetID = 6E888C501917DF9E00CD2E62;
+					};
+				};
+			};
+			buildConfigurationList = 6E888C4C1917DF9E00CD2E62 /* Build configuration list for PBXProject "Three Dimensional Racer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E888C481917DF9E00CD2E62;
+			productRefGroup = 6E888C521917DF9E00CD2E62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E888C501917DF9E00CD2E62 /* Three Dimensional Racer */,
+				6E888C711917DF9E00CD2E62 /* Three Dimensional RacerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E888C4F1917DF9E00CD2E62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E888C5F1917DF9E00CD2E62 /* InfoPlist.strings in Resources */,
+				6E888C6D1917DF9E00CD2E62 /* Images.xcassets in Resources */,
+				6E888C8F1917E78800CD2E62 /* legoCar1.dae in Resources */,
+				6E888C651917DF9E00CD2E62 /* Credits.rtf in Resources */,
+				6E888C971917F76500CD2E62 /* TDRRaceViewController.xib in Resources */,
+				6E888C8E1917E78800CD2E62 /* Translucent_Glass_Gold.jpg in Resources */,
+				6E888C6B1917DF9E00CD2E62 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E888C701917DF9E00CD2E62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E888C7D1917DF9E00CD2E62 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E888C4D1917DF9E00CD2E62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E888C611917DF9E00CD2E62 /* main.m in Sources */,
+				6E888C961917F76500CD2E62 /* TDRRaceViewController.m in Sources */,
+				6E888C681917DF9E00CD2E62 /* TDRAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E888C6E1917DF9E00CD2E62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E888C7F1917DF9E00CD2E62 /* Three_Dimensional_RacerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E888C771917DF9E00CD2E62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E888C501917DF9E00CD2E62 /* Three Dimensional Racer */;
+			targetProxy = 6E888C761917DF9E00CD2E62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E888C5D1917DF9E00CD2E62 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E888C5E1917DF9E00CD2E62 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6E888C631917DF9E00CD2E62 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E888C641917DF9E00CD2E62 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		6E888C691917DF9E00CD2E62 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E888C6A1917DF9E00CD2E62 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		6E888C7B1917DF9E00CD2E62 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E888C7C1917DF9E00CD2E62 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E888C801917DF9E00CD2E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6E888C811917DF9E00CD2E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6E888C831917DF9E00CD2E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Three Dimensional Racer/Three Dimensional Racer-Prefix.pch";
+				INFOPLIST_FILE = "Three Dimensional Racer/Three Dimensional Racer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6E888C841917DF9E00CD2E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Three Dimensional Racer/Three Dimensional Racer-Prefix.pch";
+				INFOPLIST_FILE = "Three Dimensional Racer/Three Dimensional Racer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6E888C861917DF9E00CD2E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Three Dimensional Racer.app/Contents/MacOS/Three Dimensional Racer";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Three Dimensional Racer/Three Dimensional Racer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Three Dimensional RacerTests/Three Dimensional RacerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6E888C871917DF9E00CD2E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Three Dimensional Racer.app/Contents/MacOS/Three Dimensional Racer";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Three Dimensional Racer/Three Dimensional Racer-Prefix.pch";
+				INFOPLIST_FILE = "Three Dimensional RacerTests/Three Dimensional RacerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E888C4C1917DF9E00CD2E62 /* Build configuration list for PBXProject "Three Dimensional Racer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E888C801917DF9E00CD2E62 /* Debug */,
+				6E888C811917DF9E00CD2E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E888C821917DF9E00CD2E62 /* Build configuration list for PBXNativeTarget "Three Dimensional Racer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E888C831917DF9E00CD2E62 /* Debug */,
+				6E888C841917DF9E00CD2E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6E888C851917DF9E00CD2E62 /* Build configuration list for PBXNativeTarget "Three Dimensional RacerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E888C861917DF9E00CD2E62 /* Debug */,
+				6E888C871917DF9E00CD2E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E888C491917DF9E00CD2E62 /* Project object */;
+}
