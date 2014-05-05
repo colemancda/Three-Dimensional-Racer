@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3EFF73C7-5C0F-4366-9F32-6193B031509F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Three Dimensional Racer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C5689F5E-1478-426A-8AC5-F4951C046C7A</key>
+		<string>https://github.com/colemancda/Three-Dimensional-Racer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Three Dimensional Racer.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C5689F5E-1478-426A-8AC5-F4951C046C7A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/colemancda/Three-Dimensional-Racer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C5689F5E-1478-426A-8AC5-F4951C046C7A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C5689F5E-1478-426A-8AC5-F4951C046C7A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Three Dimensional Racer</string>
+		</dict>
+	</array>
+</dict>
+</plist>

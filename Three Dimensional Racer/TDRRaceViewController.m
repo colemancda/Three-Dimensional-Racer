@@ -32,6 +32,18 @@
     return self;
 }
 
+-(void)awakeFromNib
+{
+    [super awakeFromNib];
+    
+    // load car scene
+    
+    SCNScene *carScene = [SCNScene sceneNamed:@"legoCar1"];
+    
+    [self.sceneView.scene.rootNode addChildNode:carScene.rootNode.childNodes.firstObject];
+    
+}
+
 #pragma mark - 
 
 @end
