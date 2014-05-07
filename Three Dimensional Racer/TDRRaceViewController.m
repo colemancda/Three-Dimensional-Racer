@@ -42,6 +42,30 @@
     
     [self.sceneView.scene.rootNode addChildNode:carScene.rootNode.childNodes.firstObject];
     
+    // light
+    
+    SCNLight *light = [SCNLight light];
+    
+    light.type = SCNLightTypeDirectional;
+    
+    SCNNode *lightNode = [SCNNode node];
+    
+    lightNode.position = SCNVector3Make(0, 0, 30);
+    
+    [self.sceneView.scene.rootNode addChildNode:lightNode];
+    
+    // floor
+    
+    SCNFloor *floor = [SCNFloor floor];
+    
+    floor.firstMaterial.diffuse.contents = [NSColor brownColor];
+    
+    SCNNode *floorNode = [SCNNode node];
+    
+    floorNode.geometry = floor;
+    
+    [self.sceneView.scene.rootNode addChildNode:floorNode];
+    
 }
 
 #pragma mark - 
